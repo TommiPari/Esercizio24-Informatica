@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="send.php" method="post">
+        <label for="sender">Mail mittente: </label>
+        <input type="email" name="sender"><br>
+
+        <label for="recipient">Mail destinatario: </label>
+        <input type="email" name="recipient"><br>
+
+        <label for="object">Oggetto: </label>
+        <input type="text" name="object"><br>
+
+        <label for="message">Messaggio: </label>
+        <textarea name="message" rows="10" cols="30"></textarea><br>
+
+        <input type="submit">
+    </form>
+</body>
+</html>
